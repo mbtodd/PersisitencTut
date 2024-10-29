@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\kotlin",
+    "\\src\\main\\kotlin\\com",
+    "\\src\\main\\kotlin\\com\\example",
+    "\\src\\main\\kotlin\\com\\example\\PersistenceTutorial"
+  ],
+  "SelectedNode": "\\src\\main\\kotlin\\com\\example\\PersistenceTutorial\\PersistenceTutorialApplication.kt",
+  "PreviewInSolutionExplorer": false
+}
