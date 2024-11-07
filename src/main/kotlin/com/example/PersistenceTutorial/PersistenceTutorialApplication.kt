@@ -40,29 +40,7 @@ class PlayerDataRestController(val PlayerDataRepo: PlayerDataRepository)
 @Entity
 class playerdata(
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-	val Id: Long = 0, var Xcoord: Float = 0.0f, var Ycoord: Float = 0.0f, var Zcoord: Float = 0.0f
+	val Id: Long = 0, var isvalid: Boolean = false, var XCoord: Float = 0.0f, var YCoord: Float = 0.0f, var ZCoord: Float = 0.0f
 )
 
-
-//interfacenterface MachineStateRepository: JpaRepository<machinestate, Long>
-//{
-//
-//}
-
-
-//class MachineStateController(val MachineStateRepo: MachineStateRepository)
-//{
-//	@GetMapping("Example")
-//	fun TestFunction(): List<machinestate>
-//	{
-//		return MachineStateRepo.findAll()
-//	}
-//
-//}
-
-//@Entity
-//class machinestate(
-//	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-//	val Id: Long = 0, var OnButton: Boolean = true, var OffButton: Boolean = false
-//)
 
